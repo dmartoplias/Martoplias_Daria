@@ -1,0 +1,22 @@
+ #app{
+               color: greenyellow;
+        }
+
+
+p{
+   color: violet; 
+}
+.vip{
+    font-style: italic;
+    font-weight: bold;
+    color: cadetblue;
+}
+.super-vip{
+    color: darkred;
+}
+span{
+    font-style: italic;
+}
+div span{
+color: red;
+}
