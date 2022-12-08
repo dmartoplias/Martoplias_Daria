@@ -10,9 +10,35 @@
     <table width="700px">
         <tr>
             <td>
-                <form action="http://fe.it-academy.by/TestForm.php">
-                    <input type="text" name="name">
-                    <input type="submit" value="send">
+             <form action="http://fe.it-academy.by/TestForm.php" method="post">
+             <fieldset>
+               <legend>Строка поиска</legend>
+               <input type="text" maxlength="10"> <input type="submit" value="искать"><br>
+                <input type="radio" name="radio" value="radio1">
+                <label for="radio1">на сайте</label>
+                <input type="radio" name="radio" value="radio2">
+                <label for="radio2">в google</label>
+             </fieldset>
+             
+
+             </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form action="http://fe.it-academy.by/TestForm.php" method="post">
+                    <fieldset>
+                        <legend>Авторизуйтесь</legend>
+                        <input type="text" id="login" name="login" required>
+                        <label for="login">Логин</label><br><br>
+                        <input type="password" id="pass" name="password">
+                        <label for="pass">Пароль</label><br>
+                        <input type="checkbox" id=check4 name="check4">
+                        <label for="check4">
+                            Оставаться в системе
+                        </label><br>
+                        <input type="submit" value="войти">
+                    </fieldset>
                 </form>
             </td>
         </tr>
