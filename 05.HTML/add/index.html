@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Заполните анкету</h1>
+    <fieldset>
+        <legend>Личные данные</legend>
+        <input type="text"  size="25"  placeholder="Фамилия"  autofocus    required><br>
+        <input type="text"  size="20"  placeholder="Имя"                  required><br>
+        <input type="text"  size="24"  placeholder="Отчество"             required>
+        <fieldset>
+            <legend>Паспортные данные</legend>
+            <input type="text" size="1"                  pattern="[A-Z]{1-2}"    placeholder="серия">
+            <input type="text" id="index1" name="index1" pattern="[0-9]{6,10}"   placeholder="номер паспорта">
+        </fieldset>
+        <fieldset>
+            <legend>дата рождения</legend>
+            <input type="text" name="rok" PATTERN="4">
+            <label for="rok" id="rok">год рождения</label>
+            
+        </fieldset>
+    </fieldset>
+</body>
+</html>
