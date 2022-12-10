@@ -20,10 +20,52 @@
         </fieldset>
         <fieldset>
             <legend>дата рождения</legend>
-            <input type="text" name="rok" PATTERN="4">
-            <label for="rok" id="rok">год рождения</label>
-            
+            <input type="text" name="rok" pattern="[0-9]{3}">
+            <label for="rok" id="rok">год рождения</label><br>
+            <select name="month">
+                <option>Январь</option>
+                <option>Февраль</option>
+                <option>Март</option>
+                <option>Апрель</option>
+                <option>Май</option>
+                <option>Июнь</option>
+                <option>Июль</option>
+                <option>Август</option>
+                <option>Сентябрь</option>
+                <option>Октябрь</option>
+                <option>Ноябрь</option>
+                <option>Декабрь</option>
+            </select> 
+            <label for="month">Месяц рождения</label><br>
+            <input type="number" id="number" min="1" max="31" value="1">
         </fieldset>
+        <select name="nation" required>
+        <option>РБ</option>
+        <option>РФ</option>
+        <option>КР</option>
+        <option>УР</option>
+        </select><br>
+            <label for="adres">Адрес:</label><br>
+        <textarea name="adres">
+        </textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Интересы</legend>
+        <fieldset>
+            <legend>Хобби</legend>
+            <input type="radio" name="radio" value="radio1">
+                 <label for="radio1">Рыбалка</label><br>
+            <input type="radio" name="radio" value="radio2">
+                <label for="radio2">Астрономия</label><br>
+            <input type="radio" name="radio" value="radio3">
+                 <label for="radio3">Дайвинг</label><br>
+            <input type="radio" name="radio" value="radio4">
+                 <label for="radio4">Марки</label>
+        </fieldset>
+        <fieldset>
+            <legend> </legend>
+        </fieldset>
+
     </fieldset>
 </body>
 </html>
