@@ -8,11 +8,12 @@
 </head>
 <body>
     <h1 align="center">Заполните анкету</h1>
+    <FORM action="http://fe.it-academy.by/TestForm.php">
     <fieldset>
         <legend>Личные данные</legend>
-        <input type="text"  size="25"  placeholder="Фамилия"  autofocus    required><br>
-        <input type="text"  size="20"  placeholder="Имя"                  required><br>
-        <input type="text"  size="24"  placeholder="Отчество"             required>
+        <input type="text"  size="25"  placeholder="Фамилия"   pattern="[А-Яа-яЁё]"                   autofocus    required><br>
+        <input type="text"  size="20"  placeholder="Имя"       pattern="[А-Яа-яЁё]"           required><br>
+        <input type="text"  size="24"  placeholder="Отчество"  pattern="[А-Яа-яЁё]"           required>
         <fieldset>
             <legend>Паспортные данные</legend>
             <input type="text" size="1"                  pattern="[A-Z]{1-2}"    placeholder="серия">
@@ -64,16 +65,7 @@
         </fieldset>
         <fieldset>
             <legend> Домашние животные</legend>
-            <select name="animals" multiple>
-                <option value="1">Волнистый</option>
-                <option value="2">Ара</option>
-                <option value="3">Неразлучник</option>
-                <option value="4">Караси</option>
-                <option value="5">Окуни</option>
-                <option value="6">Осетр</option>
-                <option value="7">стая ворон</option>
-                <option value="8">аист</option>
-                <option value="9">археоптерикс</option> 
+            <select name="animals" multiple size="12">
             <optgroup label="попугаи">
                 <option value="1">Волнистый</option>
                 <option value="2">Ара</option>
@@ -91,7 +83,35 @@
                 </optgroup>
             </select>
         </fieldset>
+    </fieldset>
+    <fieldset>
+        <legend>Данные для входа и восстановления пароля</legend>
+        <input type="text"     id="login" name="login"    placeholder="логин"    pattern="[A-Za-z]"   minlength="5"   width="20"   required> 
+        <label for="login">text:</label><br>
+        <input type="password" id="password"  name="password" placeholder="пароль"   pattern="[A-Za-z]"   minlength="10"  width="20"   required  autocapitalize="of">
+        <label for="password">password:</label>
+    </fieldset>
+    <fieldset>
+        <legend>Координаты</legend>
+        <input type="email" name="email" id="email" multiply    placeholder="введите адрес почты">
+        <label for="email">e-mail:</e-mail></label> <br>
+        <input type="url"   name="url"   id="url"   multiple    placeholder="введите адрес сайта">
+        <label for="url">url:</label>
+    </fieldset>
 
+    <fieldset>
+        <legend>цифры</legend>
+        <input type="number" name="number" min="-2.5" max="2.5" step="0.1">
+        <label for="number">number:</label>
+        <input type="range"  name="range"  min="1"    max="10">
+    </fieldset>
+    <fieldset>
+        <form action="http://fe.it-academy.by/TestForm.php">
+        <legend>Кнопки управления</legend>
+        <input type="submit" value="отправить">
+        <input type="submit" value="сбросить"><br>
+        <a href="send.html"> <img src="загрузка.jpg" alt="jpg"> </a>
+        </form>
     </fieldset>
 </body>
 </html>
