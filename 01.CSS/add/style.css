@@ -1,0 +1,32 @@
+body{
+    max-width: 800px;
+    margin: 50px auto 50px auto;
+}
+p.im{
+    text-align: right;
+}
+h3{
+    font-family: 'Merriweather', serif;
+   text-decoration: underline;
+   text-indent:30px ;
+
+}
+.pr1{ 
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    text-indent: 30px;
+
+}
+.pr2{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    text-indent: 30px;
+}
+.pr3{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    text-indent: 30px;
+}
+.end{
+    text-align: left;
+}

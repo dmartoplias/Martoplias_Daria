@@ -1,0 +1,40 @@
+.karta1{
+    width: 140px;
+    height: 200px;
+    background-color:gray;
+    background-repeat: no-repeat;
+    float: left;
+    background-position: 0px 0px;
+}
+.karta2{ width: 140px;
+    height: 200px;
+    background-color:royalblue;
+    background-position: 570px 790px;
+    float:left;
+    margin-left:-65px;
+
+}
+.karta3{ width: 140px;
+    height: 200px;
+    background-color:yellow;
+    background-position: 279px 1191px;
+    float:left;
+    margin-left:-65px;
+
+}
+.karta4{ width: 140px;
+    height: 200px;
+    background-color:rgb(129, 170, 106);
+    background-position: 569px 397px;
+    float:left;
+    margin-left:-65px;
+
+}
+.karta5{ width: 140px;
+    height: 200px;
+    background-color:rgb(57, 52, 78);
+    background-position: 569px 198px;
+    float:left;
+    margin-left:-65px;
+
+}
