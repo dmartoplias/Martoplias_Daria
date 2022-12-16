@@ -1,0 +1,26 @@
+.navig{
+    width: 15em;
+    background-color: aquamarine;
+    float: left;
+    margin-bottom: .2em;
+}
+.st1{
+    background-color: rgb(255, 116, 143);
+    clear: right;
+    margin-left: 15em;
+    margin-bottom: .2em;
+    display: block;
+
+}
+.down{
+    background-color: blanchedalmond;
+    clear: both;
+    margin-bottom: .2em;
+    }
+    .mail{
+        float: right;
+        width: 100px;
+    }
+    div{
+        display: block;
+    }
